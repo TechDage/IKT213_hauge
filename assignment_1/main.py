@@ -18,7 +18,7 @@ def print_image_information(image):
 def save_camera_information():
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
-        print("Error: Could not open camera")
+        print("Error no camera")
         return
 
     fps = cap.get(cv2.CAP_PROP_FPS)
