@@ -34,7 +34,7 @@ def save_camera_information():
 def main():
     image = cv2.imread("iris-1.jpg")
     if image is None:
-        print("Error: Could not read iris-1.jpg. Check the file path.")
+        print("Error")
     else:
         print_image_information(image)
     save_camera_information()
